@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;    
+  background-image: url("images/polkadot.jpg");
+  background-size: cover;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nctwishmembers {
+  padding: 20px;
+  text-align: center;
+    background-color: #ffd4f8;
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+    font-family:'baskerville', monospace;
+    color:#8ac3cf
+}
+
+.storyleftmembernames {
+    background-color: #cc83c0;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.storyrightmembersigns {
+    background-color: #5896a7;
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+}
+
+.article1 {
+    background-color: #ffd4f8;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    color:#8ac3cf
+}
+.article2 {
+    background-color: #8ac3cf;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    color: #ffd4f8
+}
+.article3 {
+    background-color: #ffd4f8;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    color: #8ac3cf
+}
+.article4 {
+    background-color: #8ac3cf;
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    color: #ffd4f8
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+  grid-template-rows: 10vh 45vh auto;
+}
+

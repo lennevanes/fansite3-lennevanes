@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;    
+  background-image: url("images/sparkle.gif");
+  font-family: "Barrio", monospace;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffd4f8;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: rgb(207, 250, 255);
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family:  "Barrio", monospace;
+}
+
+ul li a:hover {
+  background-color: #84c8da;
+}
+
+p {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "DIN condensed", monospace;
+    font-size: 50px;
+    color: #c0fffa
+}
+
+.hoofdfoto {
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.arrow {
+position: absolute;
+    top: 10%;
+    right: 85%;
+    rotate: 180deg;
+   
+}
+
+.riku-signature {
+position: absolute;
+    top: 43%;
+    left: 58%;  
+}
+
+.boy-meets-girl {
+position: absolute;
+    top: 40%;
+    left: 75%;
+    rotate: 90deg;
+}
+
